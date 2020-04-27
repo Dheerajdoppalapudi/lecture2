@@ -1,0 +1,43 @@
+		hr{
+			height: 2px;
+			width: 90%;
+			color: black;
+		}
+		table,tr,td,th {
+			border: 2px solid black;
+			border-collapse: collapse;
+			padding: 15px;
+		}
+		th{
+			background-color: grey;
+		}
+		table {
+  			border-spacing: 5px;
+		}
+		.table{
+			display: flex;
+			flex-wrap: wrap;
+		}
+		a:hover {
+  		color: red;
+  		background-color: transparent;
+  		text-decoration: underline;
+		}
+		a[name=link1]::before {
+  		content: "\21d2 click here: ";
+  		font-weight: bold;
+		}
+		::selection{
+		background-color: red;
+		color: green;
+		}
+		@media (min-width: 700px) {
+                body {
+                    font-size: 18px;
+                }
+            }
+
+            @media (max-width: 699px) {
+                body {
+                    font-size: 16px;
+                }
